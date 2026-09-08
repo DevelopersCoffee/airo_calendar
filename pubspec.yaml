@@ -1,0 +1,37 @@
+name: airo_calendar
+description: Cross-platform Flutter calendar capability wrapper with fakes & diagnostic harness.
+version: 1.0.0
+homepage: https://github.com/DevelopersCoffee/airo_calendar
+repository: https://github.com/DevelopersCoffee/airo_calendar
+issue_tracker: https://github.com/DevelopersCoffee/airo_calendar/issues
+
+topics:
+  - calendar
+  - flutter
+  - cross-platform
+  - android
+  - ios
+
+environment:
+  sdk: ^3.12.2
+  flutter: ">=3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+dev_dependencies:
+  flutter_lints: ^6.0.0
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  plugin:
+    platforms:
+      android:
+        package: io.airo.platform_calendar
+        pluginClass: PlatformCalendarPlugin
+      ios:
+        pluginClass: PlatformCalendarPlugin
+      macos:
+        pluginClass: PlatformCalendarPlugin
