@@ -1,6 +1,6 @@
 name: airo_calendar
 description: Cross-platform Flutter calendar capability wrapper with fakes & diagnostic harness.
-version: 1.0.0
+version: 1.0.1
 homepage: https://github.com/DevelopersCoffee/airo_calendar
 repository: https://github.com/DevelopersCoffee/airo_calendar
 issue_tracker: https://github.com/DevelopersCoffee/airo_calendar/issues

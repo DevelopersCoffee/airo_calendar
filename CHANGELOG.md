@@ -1,5 +1,10 @@
 # Changelog
 
+## 1.0.1
+
+- Add CI (analyze, format check, test, publish dry-run).
+- Exclude internal governance metadata (`module.yaml`) from the published package.
+
 ## 1.0.0
 
 - Initial open-source stable release.
